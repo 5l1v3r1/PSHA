@@ -22,23 +22,23 @@
 <fieldset>
 
 <!-- Form Name -->
-<legend>Pre-Shenanigan Hazard Assessment (PSHA)</legend>
+<legend>Form Name</legend>
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="Shenangigan">Name Of Shenanigan</label>  
+  <label class="col-md-4 control-label" for="shenanigan">Name Of Shenanigan</label>  
   <div class="col-md-4">
-  <input id="Shenangigan" name="Shenangigan" type="text" placeholder="Operation Evil" class="form-control input-md">
+  <input id="shenanigan" name="shenanigan" placeholder="Operation Evil" class="form-control input-md" type="text">
   <span class="help-block">Name your Shenanigan</span>  
   </div>
 </div>
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="Organizers">Organizers</label>  
+  <label class="col-md-4 control-label" for="organizers">Organizers</label>  
   <div class="col-md-4">
-  <input id="Organizers" name="Organizers" type="text" placeholder="Evilmog Renderman" class="form-control input-md">
-  <span class="help-block">Name of the Organizers</span>  
+  <input id="organizers" name="organizers" placeholder="Evilmog Renderman" class="form-control input-md" type="text">
+  <span class="help-block">Oranizers of the Shenanigan</span>  
   </div>
 </div>
 
@@ -46,7 +46,7 @@
 <div class="form-group">
   <label class="col-md-4 control-label" for="plan">Shenanigan Plan</label>
   <div class="col-md-4">                     
-    <textarea class="form-control" id="plan" name="plan">Describe your shenanigan in detail so that we know what you are doing</textarea>
+    <textarea class="form-control" id="plan" name="plan">Describe your shenanigan here</textarea>
   </div>
 </div>
 
@@ -54,7 +54,74 @@
 <div class="form-group">
   <label class="col-md-4 control-label" for="requirements">Requirements</label>
   <div class="col-md-4">                     
-    <textarea class="form-control" id="requirements" name="requirements">List your requirements so we know what you need</textarea>
+    <textarea class="form-control" id="requirements" name="requirements">List Requirements Here</textarea>
+  </div>
+</div>
+
+<!-- Multiple Checkboxes -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Injury">Potential Injury Types</label>
+  <div class="col-md-4">
+  <div class="checkbox">
+    <label for="Injury-0">
+      <input name="Injury" id="Injury-0" value="Stabbing" type="checkbox">
+      Stabbing
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="Injury-1">
+      <input name="Injury" id="Injury-1" value="Blunt Force Trauma" type="checkbox">
+      Blunt Force Trauma
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="Injury-2">
+      <input name="Injury" id="Injury-2" value="Slicing" type="checkbox">
+      Slicing
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="Injury-3">
+      <input name="Injury" id="Injury-3" value="Heat" type="checkbox">
+      Heat
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="Injury-4">
+      <input name="Injury" id="Injury-4" value="Cold" type="checkbox">
+      Cold
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="Injury-5">
+      <input name="Injury" id="Injury-5" value="Radiation" type="checkbox">
+      Burns
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="Injury-6">
+      <input name="Injury" id="Injury-6" value="Burns" type="checkbox">
+      Poison
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="Injury-7">
+      <input name="Injury" id="Injury-7" value="Poison" type="checkbox">
+      Sprains and Strains
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="Injury-8">
+      <input name="Injury" id="Injury-8" value="Sprains and Strains" type="checkbox">
+      Dislocations
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="Injury-9">
+      <input name="Injury" id="Injury-9" value="Dislocations" type="checkbox">
+      Electrocution
+    </label>
+	</div>
   </div>
 </div>
 
@@ -64,31 +131,31 @@
   <div class="col-md-4">
   <div class="checkbox">
     <label for="Energy-0">
-      <input type="checkbox" name="Energy" id="Energy-0" value="Kinetic">
+      <input name="Energy" id="Energy-0" value="Kinetic" type="checkbox">
       Kinetic
     </label>
 	</div>
   <div class="checkbox">
     <label for="Energy-1">
-      <input type="checkbox" name="Energy" id="Energy-1" value="Electromagnetic">
+      <input name="Energy" id="Energy-1" value="Electromagnetic" type="checkbox">
       Electromagnetic
     </label>
 	</div>
   <div class="checkbox">
     <label for="Energy-2">
-      <input type="checkbox" name="Energy" id="Energy-2" value="Hydraulic">
+      <input name="Energy" id="Energy-2" value="Hydraulic" type="checkbox">
       Hydraulic
     </label>
 	</div>
   <div class="checkbox">
     <label for="Energy-3">
-      <input type="checkbox" name="Energy" id="Energy-3" value="Radiation">
+      <input name="Energy" id="Energy-3" value="Radiation" type="checkbox">
       Radiation
     </label>
 	</div>
   <div class="checkbox">
     <label for="Energy-4">
-      <input type="checkbox" name="Energy" id="Energy-4" value="Lasers">
+      <input name="Energy" id="Energy-4" value="Lasers" type="checkbox">
       Lasers
     </label>
 	</div>
@@ -101,49 +168,49 @@
   <div class="col-md-4">
   <div class="checkbox">
     <label for="Chemical-0">
-      <input type="checkbox" name="Chemical" id="Chemical-0" value="1">
+      <input name="Chemical" id="Chemical-0" value="Solids" type="checkbox">
       Solids
     </label>
 	</div>
   <div class="checkbox">
     <label for="Chemical-1">
-      <input type="checkbox" name="Chemical" id="Chemical-1" value="2">
+      <input name="Chemical" id="Chemical-1" value="Liquids" type="checkbox">
       Liquids
     </label>
 	</div>
   <div class="checkbox">
     <label for="Chemical-2">
-      <input type="checkbox" name="Chemical" id="Chemical-2" value="">
-      Dusts
+      <input name="Chemical" id="Chemical-2" value="Dust" type="checkbox">
+      Dust
     </label>
 	</div>
   <div class="checkbox">
     <label for="Chemical-3">
-      <input type="checkbox" name="Chemical" id="Chemical-3" value="">
+      <input name="Chemical" id="Chemical-3" value="Fumes" type="checkbox">
       Fumes
     </label>
 	</div>
   <div class="checkbox">
     <label for="Chemical-4">
-      <input type="checkbox" name="Chemical" id="Chemical-4" value="">
-      Mists and Vapours
+      <input name="Chemical" id="Chemical-4" value="Mists and Vapors" type="checkbox">
+      Mists and Vapors
     </label>
 	</div>
   <div class="checkbox">
     <label for="Chemical-5">
-      <input type="checkbox" name="Chemical" id="Chemical-5" value="">
-      Gases
+      <input name="Chemical" id="Chemical-5" value="Gasses" type="checkbox">
+      Gasses
     </label>
 	</div>
   <div class="checkbox">
     <label for="Chemical-6">
-      <input type="checkbox" name="Chemical" id="Chemical-6" value="">
+      <input name="Chemical" id="Chemical-6" value="Alcohol" type="checkbox">
       Alcohol
     </label>
 	</div>
   <div class="checkbox">
     <label for="Chemical-7">
-      <input type="checkbox" name="Chemical" id="Chemical-7" value="">
+      <input name="Chemical" id="Chemical-7" value="Drugs" type="checkbox">
       Drugs
     </label>
 	</div>
@@ -152,48 +219,114 @@
 
 <!-- Multiple Checkboxes -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="psycho">Psycho-Social Hazards</label>
+  <label class="col-md-4 control-label" for="Psycho-Social">Psycho-Social Hazards</label>
   <div class="col-md-4">
   <div class="checkbox">
-    <label for="psycho-0">
-      <input type="checkbox" name="psycho" id="psycho-0" value="ChurchofWifi">
+    <label for="Psycho-Social-0">
+      <input name="Psycho-Social" id="Psycho-Social-0" value="Church of Wifi" type="checkbox">
       Church of Wifi
     </label>
 	</div>
   <div class="checkbox">
-    <label for="psycho-1">
-      <input type="checkbox" name="psycho" id="psycho-1" value="ArmyTrained">
-      Army Trained
+    <label for="Psycho-Social-1">
+      <input name="Psycho-Social" id="Psycho-Social-1" value="Law Enforcement" type="checkbox">
+      Law Enforcement
     </label>
 	</div>
   <div class="checkbox">
-    <label for="psycho-2">
-      <input type="checkbox" name="psycho" id="psycho-2" value="Working Conditions">
-      Working Conditions
+    <label for="Psycho-Social-2">
+      <input name="Psycho-Social" id="Psycho-Social-2" value="Hotel Security" type="checkbox">
+      Hotel Security
     </label>
 	</div>
   <div class="checkbox">
-    <label for="psycho-3">
-      <input type="checkbox" name="psycho" id="psycho-3" value="Fatigue">
+    <label for="Psycho-Social-3">
+      <input name="Psycho-Social" id="Psycho-Social-3" value="Bouncers" type="checkbox">
+      Bouncers
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="Psycho-Social-4">
+      <input name="Psycho-Social" id="Psycho-Social-4" value="Locals" type="checkbox">
+      Locals
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="Psycho-Social-5">
+      <input name="Psycho-Social" id="Psycho-Social-5" value="Escorts" type="checkbox">
+      Escorts
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="Psycho-Social-6">
+      <input name="Psycho-Social" id="Psycho-Social-6" value="Strippers" type="checkbox">
+      Strippers
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="Psycho-Social-7">
+      <input name="Psycho-Social" id="Psycho-Social-7" value="Clowns" type="checkbox">
+      Clowns
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="Psycho-Social-8">
+      <input name="Psycho-Social" id="Psycho-Social-8" value="Clowns" type="checkbox">
+      Clowns
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="Psycho-Social-9">
+      <input name="Psycho-Social" id="Psycho-Social-9" value="Bar Bouncers" type="checkbox">
+      Bar Bouncers
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="Psycho-Social-10">
+      <input name="Psycho-Social" id="Psycho-Social-10" value="Hotel Security" type="checkbox">
+      Hotel Security
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="Psycho-Social-11">
+      <input name="Psycho-Social" id="Psycho-Social-11" value="Fatigue" type="checkbox">
       Fatigue
     </label>
 	</div>
   <div class="checkbox">
-    <label for="psycho-4">
-      <input type="checkbox" name="psycho" id="psycho-4" value="Alcohol">
-      Alcohol
-    </label>
-	</div>
-  <div class="checkbox">
-    <label for="psycho-5">
-      <input type="checkbox" name="psycho" id="psycho-5" value="Stress">
+    <label for="Psycho-Social-12">
+      <input name="Psycho-Social" id="Psycho-Social-12" value="Stress" type="checkbox">
       Stress
     </label>
 	</div>
   <div class="checkbox">
-    <label for="psycho-6">
-      <input type="checkbox" name="psycho" id="psycho-6" value="BarViolence">
+    <label for="Psycho-Social-13">
+      <input name="Psycho-Social" id="Psycho-Social-13" value="Alcohol" type="checkbox">
+      Alcohol
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="Psycho-Social-14">
+      <input name="Psycho-Social" id="Psycho-Social-14" value="Drugs" type="checkbox">
+      Drugs
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="Psycho-Social-15">
+      <input name="Psycho-Social" id="Psycho-Social-15" value="Bar Violence" type="checkbox">
       Bar Violence
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="Psycho-Social-16">
+      <input name="Psycho-Social" id="Psycho-Social-16" value="Locals" type="checkbox">
+      Locals
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="Psycho-Social-17">
+      <input name="Psycho-Social" id="Psycho-Social-17" value="Minors (Under 21)" type="checkbox">
+      Minors (Under 21)
     </label>
 	</div>
   </div>
@@ -201,59 +334,41 @@
 
 <!-- Multiple Checkboxes -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="biologic">Biologic Hazards</label>
+  <label class="col-md-4 control-label" for="Biologic">Biological Hazards</label>
   <div class="col-md-4">
   <div class="checkbox">
-    <label for="biologic-0">
-      <input type="checkbox" name="biologic" id="biologic-0" value="Kids">
-      Kids
+    <label for="Biologic-0">
+      <input name="Biologic" id="Biologic-0" value="Virus-bio" type="checkbox">
+      Virus (Bio)
     </label>
 	</div>
   <div class="checkbox">
-    <label for="biologic-1">
-      <input type="checkbox" name="biologic" id="biologic-1" value="Goons">
-      Goons
-    </label>
-	</div>
-  <div class="checkbox">
-    <label for="biologic-2">
-      <input type="checkbox" name="biologic" id="biologic-2" value="Public">
-      Public
-    </label>
-	</div>
-  <div class="checkbox">
-    <label for="biologic-3">
-      <input type="checkbox" name="biologic" id="biologic-3" value="Viruses">
-      Viruses
-    </label>
-	</div>
-  <div class="checkbox">
-    <label for="biologic-4">
-      <input type="checkbox" name="biologic" id="biologic-4" value="Fungi_mold">
+    <label for="Biologic-1">
+      <input name="Biologic" id="Biologic-1" value="Fungi-mold" type="checkbox">
       Fungi (Mold)
     </label>
 	</div>
   <div class="checkbox">
-    <label for="biologic-5">
-      <input type="checkbox" name="biologic" id="biologic-5" value="Bacteria">
+    <label for="Biologic-2">
+      <input name="Biologic" id="Biologic-2" value="Bacteria" type="checkbox">
       Bacteria
     </label>
 	</div>
   <div class="checkbox">
-    <label for="biologic-6">
-      <input type="checkbox" name="biologic" id="biologic-6" value="BloodandBodilyFluids">
+    <label for="Biologic-3">
+      <input name="Biologic" id="Biologic-3" value="Blood and Bodily Fluids" type="checkbox">
       Blood and Bodily Fluids
     </label>
 	</div>
   <div class="checkbox">
-    <label for="biologic-7">
-      <input type="checkbox" name="biologic" id="biologic-7" value="Sewage">
+    <label for="Biologic-4">
+      <input name="Biologic" id="Biologic-4" value="Sewage" type="checkbox">
       Sewage
     </label>
 	</div>
   <div class="checkbox">
-    <label for="biologic-8">
-      <input type="checkbox" name="biologic" id="biologic-8" value="Other">
+    <label for="Biologic-5">
+      <input name="Biologic" id="Biologic-5" value="Other" type="checkbox">
       Other
     </label>
 	</div>
@@ -262,101 +377,101 @@
 
 <!-- Multiple Checkboxes -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="Special">Special Hazards</label>
+  <label class="col-md-4 control-label" for="special">Special Hazards</label>
   <div class="col-md-4">
   <div class="checkbox">
-    <label for="Special-0">
-      <input type="checkbox" name="Special" id="Special-0" value="Gravity">
+    <label for="special-0">
+      <input name="special" id="special-0" value="Gravity" type="checkbox">
       Gravity
     </label>
 	</div>
   <div class="checkbox">
-    <label for="Special-1">
-      <input type="checkbox" name="Special" id="Special-1" value="LawEnforcement">
-      Law Enforcement
+    <label for="special-1">
+      <input name="special" id="special-1" value="Arrest" type="checkbox">
+      Arrest
     </label>
 	</div>
   <div class="checkbox">
-    <label for="Special-2">
-      <input type="checkbox" name="Special" id="Special-2" value="Goons">
-      Goons
+    <label for="special-2">
+      <input name="special" id="special-2" value="Security" type="checkbox">
+      Security
     </label>
 	</div>
   <div class="checkbox">
-    <label for="Special-3">
-      <input type="checkbox" name="Special" id="Special-3" value="LiftingandHandlingLoads">
+    <label for="special-3">
+      <input name="special" id="special-3" value="Lifting and Handling Loads" type="checkbox">
       Lifting and Handling Loads
     </label>
 	</div>
   <div class="checkbox">
-    <label for="Special-4">
-      <input type="checkbox" name="Special" id="Special-4" value="PolygraphMachines">
+    <label for="special-4">
+      <input name="special" id="special-4" value="Polygraph Machines" type="checkbox">
       Polygraph Machines
     </label>
 	</div>
   <div class="checkbox">
-    <label for="Special-5">
-      <input type="checkbox" name="Special" id="Special-5" value="SlippingandTripping">
+    <label for="special-5">
+      <input name="special" id="special-5" value="Handcuffs" type="checkbox">
+      Handcuffs
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="special-6">
+      <input name="special" id="special-6" value="Machinery" type="checkbox">
+      Machinery
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="special-7">
+      <input name="special" id="special-7" value="Slipping and Tripping" type="checkbox">
       Slipping and Tripping
     </label>
 	</div>
   <div class="checkbox">
-    <label for="Special-6">
-      <input type="checkbox" name="Special" id="Special-6" value="MovingPartsofMachinery">
-      Moving Parts of Machinery
-    </label>
-	</div>
-  <div class="checkbox">
-    <label for="Special-7">
-      <input type="checkbox" name="Special" id="Special-7" value="PhysicalAccessControl">
-      Physical Access Control
-    </label>
-	</div>
-  <div class="checkbox">
-    <label for="Special-8">
-      <input type="checkbox" name="Special" id="Special-8" value="Clowns">
+    <label for="special-8">
+      <input name="special" id="special-8" value="Clowns" type="checkbox">
       Clowns
     </label>
 	</div>
   <div class="checkbox">
-    <label for="Special-9">
-      <input type="checkbox" name="Special" id="Special-9" value="PressurizedSystems">
+    <label for="special-9">
+      <input name="special" id="special-9" value="Pressurized Systems" type="checkbox">
       Pressurized Systems
     </label>
 	</div>
   <div class="checkbox">
-    <label for="Special-10">
-      <input type="checkbox" name="Special" id="Special-10" value="Vehicles">
+    <label for="special-10">
+      <input name="special" id="special-10" value="Vehicles" type="checkbox">
       Vehicles
     </label>
 	</div>
   <div class="checkbox">
-    <label for="Special-11">
-      <input type="checkbox" name="Special" id="Special-11" value="Fire">
+    <label for="special-11">
+      <input name="special" id="special-11" value="Fire" type="checkbox">
       Fire
     </label>
 	</div>
   <div class="checkbox">
-    <label for="Special-12">
-      <input type="checkbox" name="Special" id="Special-12" value="Noise">
+    <label for="special-12">
+      <input name="special" id="special-12" value="Noise" type="checkbox">
       Noise
     </label>
 	</div>
   <div class="checkbox">
-    <label for="Special-13">
-      <input type="checkbox" name="Special" id="Special-13" value="Lighting">
+    <label for="special-13">
+      <input name="special" id="special-13" value="Lighting" type="checkbox">
       Lighting
     </label>
 	</div>
   <div class="checkbox">
-    <label for="Special-14">
-      <input type="checkbox" name="Special" id="Special-14" value="Temperature">
+    <label for="special-14">
+      <input name="special" id="special-14" value="Temperature" type="checkbox">
       Temperature
     </label>
 	</div>
   <div class="checkbox">
-    <label for="Special-15">
-      <input type="checkbox" name="Special" id="Special-15" value="Vibration">
+    <label for="special-15">
+      <input name="special" id="special-15" value="Vibration" type="checkbox">
       Vibration
     </label>
 	</div>
@@ -365,36 +480,54 @@
 
 <!-- Multiple Checkboxes -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="Enforcement">Enforcement Risks</label>
+  <label class="col-md-4 control-label" for="Enforcement">Enforcement Hazards</label>
   <div class="col-md-4">
   <div class="checkbox">
     <label for="Enforcement-0">
-      <input type="checkbox" name="Enforcement" id="Enforcement-0" value="Conference">
-      Conference
+      <input name="Enforcement" id="Enforcement-0" value="Bar Bouncers" type="checkbox">
+      Bar Bouncers
     </label>
 	</div>
   <div class="checkbox">
     <label for="Enforcement-1">
-      <input type="checkbox" name="Enforcement" id="Enforcement-1" value="Local">
-      Local
+      <input name="Enforcement" id="Enforcement-1" value="Hotel Security" type="checkbox">
+      Hotel Security
     </label>
 	</div>
   <div class="checkbox">
     <label for="Enforcement-2">
-      <input type="checkbox" name="Enforcement" id="Enforcement-2" value="State">
-      State
+      <input name="Enforcement" id="Enforcement-2" value="Conference Security" type="checkbox">
+      Conference Security
     </label>
 	</div>
   <div class="checkbox">
     <label for="Enforcement-3">
-      <input type="checkbox" name="Enforcement" id="Enforcement-3" value="Federal">
-      Federal
+      <input name="Enforcement" id="Enforcement-3" value="Private Security" type="checkbox">
+      Private Security
     </label>
 	</div>
   <div class="checkbox">
     <label for="Enforcement-4">
-      <input type="checkbox" name="Enforcement" id="Enforcement-4" value="Venue">
-      Venue
+      <input name="Enforcement" id="Enforcement-4" value="Local Law Enforcement" type="checkbox">
+      Local Law Enforcement
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="Enforcement-5">
+      <input name="Enforcement" id="Enforcement-5" value="State Law Enforcement" type="checkbox">
+      State Law Enforcement
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="Enforcement-6">
+      <input name="Enforcement" id="Enforcement-6" value="Federal Law Enforcement" type="checkbox">
+      Federal Law Enforcement
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="Enforcement-7">
+      <input name="Enforcement" id="Enforcement-7" value="TSA" type="checkbox">
+      TSA
     </label>
 	</div>
   </div>
@@ -402,36 +535,36 @@
 
 <!-- Multiple Checkboxes -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="Permits">Permits Granted</label>
+  <label class="col-md-4 control-label" for="Permits">Permits/Permission Granted</label>
   <div class="col-md-4">
   <div class="checkbox">
     <label for="Permits-0">
-      <input type="checkbox" name="Permits" id="Permits-0" value="Conference">
-      Conference
+      <input name="Permits" id="Permits-0" value="Conference Security" type="checkbox">
+      Conference Security
     </label>
 	</div>
   <div class="checkbox">
     <label for="Permits-1">
-      <input type="checkbox" name="Permits" id="Permits-1" value="Local">
-      Local
+      <input name="Permits" id="Permits-1" value="Hotel" type="checkbox">
+      Hotel
     </label>
 	</div>
   <div class="checkbox">
     <label for="Permits-2">
-      <input type="checkbox" name="Permits" id="Permits-2" value="State">
-      State
+      <input name="Permits" id="Permits-2" value="Local" type="checkbox">
+      Local
     </label>
 	</div>
   <div class="checkbox">
     <label for="Permits-3">
-      <input type="checkbox" name="Permits" id="Permits-3" value="Federal">
-      Federal
+      <input name="Permits" id="Permits-3" value="State" type="checkbox">
+      State
     </label>
 	</div>
   <div class="checkbox">
     <label for="Permits-4">
-      <input type="checkbox" name="Permits" id="Permits-4" value="Venue">
-      Venue
+      <input name="Permits" id="Permits-4" value="Federal" type="checkbox">
+      Federal
     </label>
 	</div>
   </div>
@@ -439,98 +572,105 @@
 
 <!-- Multiple Checkboxes -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="resources">Resources</label>
+  <label class="col-md-4 control-label" for="Resources">Resources Available</label>
   <div class="col-md-4">
   <div class="checkbox">
-    <label for="resources-0">
-      <input type="checkbox" name="resources" id="resources-0" value="Spotters">
+    <label for="Resources-0">
+      <input name="Resources" id="Resources-0" value="Conference Security Escort" type="checkbox">
+      Conference Security Escort
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="Resources-1">
+      <input name="Resources" id="Resources-1" value="Spotters" type="checkbox">
       Spotters
     </label>
 	</div>
   <div class="checkbox">
-    <label for="resources-1">
-      <input type="checkbox" name="resources" id="resources-1" value="Goons">
-      Goons
-    </label>
-	</div>
-  <div class="checkbox">
-    <label for="resources-2">
-      <input type="checkbox" name="resources" id="resources-2" value="Parachutes">
+    <label for="Resources-2">
+      <input name="Resources" id="Resources-2" value="Parachutes" type="checkbox">
       Parachutes
     </label>
 	</div>
   <div class="checkbox">
-    <label for="resources-3">
-      <input type="checkbox" name="resources" id="resources-3" value="SafetyPlan">
+    <label for="Resources-3">
+      <input name="Resources" id="Resources-3" value="Safety Plan" type="checkbox">
       Safety Plan
     </label>
 	</div>
   <div class="checkbox">
-    <label for="resources-4">
-      <input type="checkbox" name="resources" id="resources-4" value="Permits">
-      Permits
-    </label>
-	</div>
-  <div class="checkbox">
-    <label for="resources-5">
-      <input type="checkbox" name="resources" id="resources-5" value="BailMoney">
+    <label for="Resources-4">
+      <input name="Resources" id="Resources-4" value="Bail Money" type="checkbox">
       Bail Money
     </label>
 	</div>
   <div class="checkbox">
-    <label for="resources-6">
-      <input type="checkbox" name="resources" id="resources-6" value="EscapePlan">
+    <label for="Resources-5">
+      <input name="Resources" id="Resources-5" value="Escape Plan" type="checkbox">
       Escape Plan
     </label>
 	</div>
   <div class="checkbox">
-    <label for="resources-7">
-      <input type="checkbox" name="resources" id="resources-7" value="ElevatorKeys">
+    <label for="Resources-6">
+      <input name="Resources" id="Resources-6" value="Elevator Keys" type="checkbox">
       Elevator Keys
     </label>
 	</div>
   <div class="checkbox">
-    <label for="resources-8">
-      <input type="checkbox" name="resources" id="resources-8" value="Lockpicks">
+    <label for="Resources-7">
+      <input name="Resources" id="Resources-7" value="Lockpicks" type="checkbox">
       Lockpicks
     </label>
 	</div>
   <div class="checkbox">
-    <label for="resources-9">
-      <input type="checkbox" name="resources" id="resources-9" value="FallProtection">
+    <label for="Resources-8">
+      <input name="Resources" id="Resources-8" value="Fall Protection" type="checkbox">
       Fall Protection
     </label>
 	</div>
   <div class="checkbox">
-    <label for="resources-10">
-      <input type="checkbox" name="resources" id="resources-10" value="EnergyIsolation">
+    <label for="Resources-9">
+      <input name="Resources" id="Resources-9" value="Energy Isolation" type="checkbox">
       Energy Isolation
     </label>
 	</div>
   <div class="checkbox">
-    <label for="resources-11">
-      <input type="checkbox" name="resources" id="resources-11" value="BiologicContainment">
-      Biologic Containment
+    <label for="Resources-10">
+      <input name="Resources" id="Resources-10" value="Biologic Protection" type="checkbox">
+      Biologic Protection
     </label>
 	</div>
   <div class="checkbox">
-    <label for="resources-12">
-      <input type="checkbox" name="resources" id="resources-12" value="Wardrobe">
+    <label for="Resources-11">
+      <input name="Resources" id="Resources-11" value="Energy Isolation" type="checkbox">
+      Energy Isolation
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="Resources-12">
+      <input name="Resources" id="Resources-12" value="Safety Gear" type="checkbox">
+      Safety Gear
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="Resources-13">
+      <input name="Resources" id="Resources-13" value="Wardrobe" type="checkbox">
       Wardrobe
     </label>
 	</div>
   </div>
 </div>
 
-<!-- Textarea -->
+<!-- Button -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="mitigations">Hazard Mitigations</label>
-  <div class="col-md-4">                     
-    <textarea class="form-control" id="mitigations" name="mitigations">List your hazard mitigations so we know you can do a shenanigan safely</textarea>
+  <label class="col-md-4 control-label" for="submit">Submit</label>
+  <div class="col-md-4">
+    <button id="submit" name="submit" class="btn btn-danger">Submit</button>
   </div>
 </div>
 
 </fieldset>
 </form>
+
 	    </body>
 </html>
